@@ -5,7 +5,7 @@
   box-sizing: border-box;
 }
 body{
-  font-family: "Roboto", sans-serif;;
+  font-family: "Roboto", sans-serif;
   background-color: rgb(229, 228, 228);
   color: #333;
 }
@@ -13,7 +13,7 @@ body{
 /********** HEADER SECTION *********/
 nav{
   background-color: #333;
-  padding: .5rem;
+  padding: .5rem .8rem;
 }
 nav ul{
   display: flex;
@@ -60,12 +60,14 @@ p{
   flex-direction: column;
   gap: 3rem;
   padding-bottom: 3rem;
+  word-spacing: .2rem;
 }
 .tribute h3{
   font-size: 1.3rem;
 }
 .tribute p{
   margin: .4rem 0 .7rem 0;
+  word-spacing: .2rem;
 }
 .tribute span{
   color: #767676;
@@ -81,6 +83,7 @@ footer{
 }
 footer h2{
   font-size: 2.5rem;
+  font-weight: 500;
 }
 footer :nth-child(2){
   font-size: 1.5rem;
